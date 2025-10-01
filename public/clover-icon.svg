@@ -1,0 +1,22 @@
+<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    /* Change your colors here */
+    .background { fill: #dcfce7; }
+    .clover-icon { fill: #15803d; }
+
+    /* Example: Dark mode support */
+    @media (prefers-color-scheme: dark) {
+      .background { fill: #1e3a2b; }
+      .clover-icon { fill: #6ee7b7; }
+    }
+  </style>
+  
+  <circle class="background" cx="32" cy="32" r="32"/>
+  
+  <g class="clover-icon">
+    <path d="M32 32C42 16 58 22 58 32C58 42 42 48 32 32Z" transform="rotate(45 32 32)"/>
+    <path d="M32 32C42 16 58 22 58 32C58 42 42 48 32 32Z" transform="rotate(135 32 32)"/>
+    <path d="M32 32C42 16 58 22 58 32C58 42 42 48 32 32Z" transform="rotate(225 32 32)"/>
+    <path d="M32 32C42 16 58 22 58 32C58 42 42 48 32 32Z" transform="rotate(315 32 32)"/>
+  </g>
+</svg>
