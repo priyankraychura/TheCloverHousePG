@@ -658,7 +658,7 @@ const ContactPage = () => {
               <h2 className="text-3xl font-serif font-bold text-[#004d40] mb-6">Our Location</h2>
               <div className="bg-gray-200 h-80 rounded-lg shadow-lg mb-6 overflow-hidden">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387193.3059635634!2d-74.2598661352446!3d40.69714941932135!2m3!1f0!2f0!3f0!3m2!i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sin!4v1695475252843!5m2!1sen!2sin"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3671.112987315785!2d72.50499947477118!3d23.05631891506908!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e9d560bcc187d%3A0x5cd53e8db9821ae0!2sThe%20Clover%20House!5e0!3m2!1sen!2sin!4v1759328717236!5m2!1sen!2sin"
                   width="100%" height="100%" style={{ border: 0 }} allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade">
                 </iframe>
               </div>
