@@ -1,0 +1,37 @@
+/* Style for date input placeholder */
+input[type='date'] {
+	position: relative;
+	color: transparent; /* Hide text by default to show placeholder */
+}
+
+input[type='date']::-webkit-calendar-picker-indicator {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: auto;
+	height: auto;
+	color: transparent;
+	background: transparent;
+	cursor: pointer;
+}
+
+input[type='date']::before {
+	content: attr(placeholder);
+	position: absolute;
+	left: 2.75rem;
+	top: 50%;
+	transform: translateY(-50%);
+	color: #9ca3af; /* Tailwind gray-400 */
+}
+
+input[type='date']:valid,
+input[type='date']:focus {
+	color: #1f2937; /* Show text when a date is selected or input is focused */
+}
+
+input[type='date']:valid::before,
+input[type='date']:focus::before {
+	display: none; /* Hide placeholder when a date is selected or input is focused */
+}
